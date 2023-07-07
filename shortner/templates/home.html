@@ -106,7 +106,7 @@ section {
         csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val(),
       },
       success: function(data){
-        $('h2').html("https://urlshortner-kykv.onrender.com/"+data)
+        $('h2').html("shortner/"+data)
       }
     });
   });
